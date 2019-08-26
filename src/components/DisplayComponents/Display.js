@@ -3,7 +3,7 @@ import { tsPropertySignature } from "@babel/types";
 
 const Display = (props) => {
   return <div>{/* Display any props data here */
-    props.text
+    <input type="text" value={props.value}/>
   }</div>;
 };
 
